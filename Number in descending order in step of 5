@@ -1,0 +1,11 @@
+n=int(input("enter the number:"))
+for i in range (n,0,-5):
+	print(i)
+
+Algorithm
+* Get input number from the user
+
+*Using forloop from given number to
+ zero in decrease of 5
+
+* Print the loop and get output.
