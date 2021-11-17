@@ -1,11 +1,18 @@
-n=int(input("enter the number:"))
-for i in range (n,0,-5):
-	print(i)
+Package com.Ajithkumar
+class Main{
+    public static void main(String[] args) {
+        int n=100;
+for(int i=n;i>=0;){
+    System.out.println(i);
+    i-=5;
+}
+    }
+}
 
 Algorithm
 * Get input number from the user
 
-*Using forloop from given number to
- zero in decrease of 5
+*Using forloop and initialise i=n,
+i greater than equal to zero.
 
-* Print the loop and get output.
+* Print the i value and decrease the i value.
